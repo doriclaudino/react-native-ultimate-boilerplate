@@ -1,4 +1,4 @@
-package com.react_native_ultimate_boilerplate;
+package com.doriclaudino.rnub;
 
 import android.app.Application;
 
