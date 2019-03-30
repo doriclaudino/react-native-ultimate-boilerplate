@@ -1,12 +1,14 @@
 {
-  "name": "openbridges",
+  "name": "react-native-ultimate-boilerplate",
   "version": "0.0.1",
   "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest",
     "lint": "tslint --project tsconfig.json",
-    "lint:fix": "tslint --project tsconfig.json --fix"
+    "lint:fix": "tslint --project tsconfig.json --fix",
+    "android:debug": "react-native run-android --variant=debug",
+    "gradle:clean": "./android/gradlew clean"
   },
   "typings": "typings/index.d.ts",
   "dependencies": {
